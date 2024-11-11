@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+
+}
+.menubar{
+    margin-top: 0;
+    padding: 0;
+    background-color: orange;
+    display: inline-flex;
+    width: 100%;
+    padding: 3px 3px;
+    position: fixed;
+    border: 1px solid #fff;
+
+}
+.menubar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-left: 19%;
+}
+.menubar li{
+    display: inline-block;
+   padding-top: 15px;
+   text-align: center;
+}
+.menubar a{
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    height: 40px;
+    color: black;
+    padding-top: 8px;
+    
+}
+.menubar img{
+    height: 65px;
+    width: 65px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+.menubar p{
+    margin-left: 1%;
+    display: inline-flex;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+  
+   
+}
+.menubar a:hover{
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 110px;
+    gap: 2px;
+    border-radius: 10px;
+}
+/* Social Icons Styles */
+.social-icons {
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 24px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #a9a9a9; /* Cement color hover effect */
+}
+
+.contents{
+    padding-top: 5%;
+    box-sizing: border-box;
+    margin-left: 3%;
+    margin-bottom: 8%;
+   
+    
+}
+
+.contents h1{
+    padding: 20px;
+    color: rgb(255, 0, 251);
+    object-fit: cover;
+}
+
+/*ABOUT*/
+.contents #About{
+    margin-bottom: 10px;
+}
+
+.contents #About .one{
+    float: left;
+    width: 600px;
+    margin-top: 20px;
+}
+.contents #About .two{
+    float: right;
+    padding: 50px;
+    padding-top: 0;
+    
+}
+.contents #About .two img{
+    border: 1px solid rgb(11, 243, 11);
+    padding-top: 0;
+    margin-top: 0;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    box-shadow: 3px 3px 5px rgb(13, 232, 31);
+}
+.contents #About .one #p1{
+    padding: 15px;
+    margin: 30px;
+    border: 2px solid rgb(10, 168, 230); 
+    width: auto;
+    height: auto;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.contents #About .one #p2{
+    margin-left: 200px;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    border: 2px solid rgb(10, 168, 230); 
+    height: auto;
+    width: auto;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;    
+}
+
+
+
+/*Education*/
+.contents #Education{
+    margin-bottom: 10px;
+}
+.contents #Education p,h3{
+    padding-left: 20px;
+}
+.contents #Education .btech {
+    float: left;
+    font-size: medium;
+    margin: 30px;
+    border: 2px solid rgb(10, 72, 230); 
+    border-radius: 15px;
+    height: auto;
+    width: auto;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+.contents #Education .btech #pa1{
+    margin-top: 2px;
+    text-align: start;
+    float: left;
+}
+.contents #Education p{
+    padding-left: 20px;
+}
+.contents #Education h3{
+    padding-left: 20px;
+    color: rgb(64, 233, 7);
+}
+
+.contents #Education .intermediate {
+    border: 2px solid rgb(10, 72, 230); 
+    width: auto;
+    height: auto;
+    margin: 40px 30px 30px 30px;
+    float: left;
+    font-weight: 300;
+    font-size: medium;
+    flex-shrink: 1;
+    flex-grow: 1;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+.contents #Education .intermediate #pa2{
+    margin-top: 2px;
+    text-align: start;
+}
+
+.contents #Education .ssc {
+    border: 2px solid rgb(10, 72, 230); 
+    width: auto;
+    height: auto;
+    margin: 40px 30px 30px 30px;
+    float: left;
+    font-weight: 300;
+    font-size: medium;
+    flex-shrink: 1;
+    flex-grow: 1;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+.contents #Education .ssc #pa3{
+    margin-top: 2px;
+    text-align: start;
+}
+
+/*Projects*/
+
+.contents #Projects p{
+    margin-left: 20px;
+}
+.contents #Projects .minor1{
+    float: left;
+    width: 60%;
+}
+.contents #Projects .img{
+    margin-left: 80px;
+}
+
+.contents #Projects .minor2{
+    float: left;
+    width: 55%;
+}
+
+.contents #Projects h3{
+    color: rgb(16, 179, 7);
+}
+.contents #Projects .img1{
+    margin-left: 80px;
+    margin-bottom: 150px;
+}
+
+.contents #Projects .major{
+    float: left;
+    width: 60%;
+}
+
+.contents #Projects .img2{
+    margin-left: 10px;
+    margin-bottom: 150px;
+}
+
+/* Skills */
+
+.contents #Skills .skills ol{
+    padding-left: 15%; 
+    padding-bottom: 10px;   
+}
+.contents #Skills .skills ol li{
+    padding-bottom: 5px;
+}
+.contents #Skills .skills h2{
+    color: rgb(5, 121, 179);
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+/* Details */
+.contents #Details h3{
+    color: rgb(13, 231, 13);
+}
+.contents #Details pre{
+    font-size: 15px;
+}
+
+/* Certificates */
+
+.contents #Certificates .certificates{
+    margin-left: 50px;
+}
+.contents #Certificates .certimg{
+    margin-top: 20px;
+}
+.contents #Certificates img{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+.contents #Certificates{
+    margin-bottom: 20px;
+}
+
+
+/* Contact */
+
+.contents #Contact i{
+    padding-left: 100px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+   
+}
+.contents #Contact p{
+    padding-left: 20px;
+    
+}

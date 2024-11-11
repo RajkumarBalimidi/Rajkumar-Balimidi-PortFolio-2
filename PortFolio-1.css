@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+    flex-shrink: 1;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    max-width: 160px;
+    background: #fff;
+    float: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid rgb(10, 168, 230);
+    position: absolute;
+    position: fixed;
+    background: none;
+    z-index: 1;
+}
+
+.container .navbar{
+    width: 100%;
+    padding: 0px 0px 10px 6px;
+
+}
+.container .navbar li{
+    list-style: none;
+    margin: 2px;
+    padding: 0px;
+     
+}
+.container .navbar li a{
+    width: 100%;
+    padding: 6px 1px;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-flex;
+    color: black;
+}
+.container .navbar li a i{
+    padding-left: 1px;
+  
+}
+.container .navbar li a p{
+    margin-left: 30px ; 
+    display: inline-flex;
+    position:absolute;
+    padding-right: 20px;
+}
+.container .navbar li:hover a{
+    
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+}
+.container .imagebox{
+    position: relative;
+    padding-left: 3px;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    background-color: rgb(18, 208, 233);
+}
+
+.container .imagebox img{
+    height: 160px;
+    width: 150px;
+    border-radius: 80px;
+}
+.container .social{
+    justify-content:space-evenly;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 120px;
+    
+}
+.container .social a{
+    padding: 10px;
+    color: black;
+}
+
+.container .social i:hover{
+    color: blue;
+}
+.container .social #instagram:hover{
+    color: rgb(224, 40, 98);
+}
+
+.container .social .fab::after,.fa-brands::after{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    border-radius: 50%;
+}
+
+.container .social .fab:hover::after,.fa-brands:hover::after{
+    background: rgb(233, 4, 27);
+}
+
+/* content */
+.contents{
+    margin-left: 160px;
+    flex-shrink: 1;
+   
+  
+    /* text-shadow:2px 2px 3px rgb(65, 94, 237); */
+    /* border: 3px solid rgb(10, 168, 230); */
+}
+
+.contents h1{
+    padding: 20px;
+    color: rgb(255, 0, 251);
+    object-fit: cover;
+}
+
+/*ABOUT*/
+
+.contents #About .one{
+    float: left;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.contents #About .two{
+    float: right;
+    padding: 50px;
+    
+}
+.contents #About .two img{
+    border: 1px solid rgb(11, 243, 11);
+    padding-top: 0px;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    box-shadow: 3px 3px 5px rgb(13, 232, 31);
+}
+.contents #About .one #p1{
+    padding: 15px;
+    margin: 30px;
+    border: 2px solid rgb(10, 168, 230); 
+    width: 50%;
+    height: 80px;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.contents #About .one #p2{
+    margin-left: 200px;
+    margin-top: 60px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    border: 2px solid rgb(10, 168, 230); 
+    height: 120px;
+    width: 60%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;    
+}
+
+
+/*Education*/
+.contents #Education p,h3{
+    padding-left: 20px;
+}
+
+.contents #Education .btech {
+    float: left;
+    font-size: medium;
+    margin: 30px;
+    border: 2px solid rgb(10, 72, 230); 
+    border-radius: 15px;
+    height: auto;
+    width: 80%;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+.contents #Education .btech #pa1{
+    margin-top: 10px;
+    text-align: start;
+}
+.contents #Education p{
+    padding-left: 20px;
+}
+.contents #Education h3{
+    padding-left: 20px;
+    color: rgb(64, 233, 7);
+}
+
+.contents #Education .intermediate {
+    border: 2px solid rgb(10, 72, 230); 
+    width: 60%;
+    height: auto;
+    margin: 40px 30px 30px 30px;
+    float: left;
+    font-weight: 300;
+    font-size: medium;
+    flex-shrink: 1;
+    flex-grow: 1;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+.contents #Education .intermediate #pa2{
+    margin-top: 10px;
+    text-align: start;
+}
+
+.contents #Education .ssc {
+    border: 2px solid rgb(10, 72, 230); 
+    width: 60%;
+    height: auto;
+    margin: 40px 30px 30px 30px;
+    float: left;
+    font-weight: 300;
+    font-size: medium;
+    flex-shrink: 1;
+    flex-grow: 1;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+.contents #Education .ssc #pa3{
+    margin-top: 10px;
+    text-align: start;
+}
+
+/*Projects*/
+
+.contents #Projects p{
+    margin-left: 20px;
+}
+.contents #Projects .minor1{
+    float: left;
+    width: 60%;
+}
+.contents #Projects .img{
+    margin-left: 80px;
+}
+
+.contents #Projects .minor2{
+    float: left;
+    width: 55%;
+}
+
+.contents #Projects h3{
+    color: rgb(16, 179, 7);
+}
+.contents #Projects .img1{
+    margin-left: 80px;
+    margin-bottom: 150px;
+}
+
+.contents #Projects .major{
+    float: left;
+    width: 60%;
+}
+
+.contents #Projects .img2{
+    margin-left: 10px;
+    margin-bottom: 150px;
+}
+
+.contents #Skills .skills{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contents #Skills .skills h2{
+    color: rgb(5, 121, 179);
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.contents #Details h3{
+    color: rgb(13, 231, 13);
+}
+
+.contents #Certificates .certificates{
+    margin-left: 50px;
+}
+.contents #Certificates img{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+    margin: 23px 23px 100px 23px;
+}
+
+.radbut .dark,.span1,.bright,.span2{
+    float: right;
+    margin: 5px;
+}
+.radbut .container{
+    float: left;
+}
+.radbut .dark:checked + .container{
+    color: white;
+    background-color: black;
+}
+
+.radbut .dark:checked + .container .navbar a{
+    color: white;
+
+}
+
+.radbut .dark:checked + .container .social i{
+    color: white;
+}
+.radbut .dark:checked + .container .social a i:hover{
+    color: blue;
+}
+
+.radbut .dark:checked + .container + .contents{
+    color: white;
+    background-color: black;
+}
+.radbut .span1{
+    cursor: pointer;
+    color: rgb(196, 190, 190);
+}
+.radbut .span2{
+    cursor: pointer;
+    color: rgb(183, 177, 177);
+}
+
+.radbut .span1:hover{
+    cursor: pointer;
+    color: blue;
+}
+.radbut .span2:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+
